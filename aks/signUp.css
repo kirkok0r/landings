@@ -1,0 +1,119 @@
+* { 
+  padding: 0; 
+  margin: 0; 
+} 
+
+a, li { 
+  text-decoration: none; 
+  list-style-type: none; 
+} 
+.body { 
+  color: rgb(17, 17, 17); 
+  background-color: rgb(229, 229, 229); 
+  background-image: linear-gradient(rgb(229, 229, 229), rgb(229, 229, 229)); 
+  font-family: 'Open Sans', sans-serif; 
+  font-size: 1rem; 
+  line-height: 1.6; 
+} 
+
+.header { 
+ background-color: #ffffff; 
+} 
+
+.header-main { 
+  display: flex; 
+  justify-content: space-between; 
+  margin: 0px 130px 0px; 
+  padding: 20px 0px 20px; 
+} 
+
+.header-name { 
+  display: flex; 
+  align-items: center; 
+  font-family: 'Oswald', sans-serif; 
+  font-weight: 700; 
+  font-size: 24px; 
+  color: #4b8cca; 
+} 
+.header-nav { 
+  display: flex; 
+  align-items: center; 
+} 
+.header-nav ul{ 
+  display: flex; 
+  flex-direction: row; 
+  font-weight: 700px; 
+} 
+.header-nav ul li a { 
+  padding: 10px 23px; 
+  font-family: 'Open Sans', sans-serif; 
+  font-weight: 700; 
+  font-size: 16px; 
+  color:#4b8cca;
+  cursor: pointer; 
+  transition: all 0.1s ease;
+} 
+.header-nav ul li a:hover {
+  color: #387cbd;
+  /* opacity: 1; */
+}
+
+.section-form { 
+  display: flex; 
+  flex-direction: column; 
+  background-color: #ffffff; 
+  width: 530px; 
+  border-radius: 50px; 
+  padding: 30px; 
+  padding-top: 45px; 
+  padding-left: 40px;
+  padding-right: 15px;
+  margin: 50px auto; 
+} 
+.section-form .signUp h3 { 
+  text-align: center; 
+  font-size: 48px; 
+  font-family: 'Oswald', sans-serif; 
+  color: #111111; 
+  font-weight: 400;
+  margin-bottom: 35px; 
+} 
+
+.section-form .signUp-input {
+  margin-bottom: 25px;
+}
+.section-form .signUp-input input[type=text] { 
+  width: 90%; 
+  display: flex; 
+  flex-direction: column; 
+  /* margin: 30px 10px 35px;  */
+  margin-bottom: 35px;
+  background-color: #f2f2f2; 
+  padding: 10px 12px; 
+  border: 0px; 
+  font-family: 'Oswald', sans-serif; 
+  font-size: 1.25rem; 
+  height: 30px; 
+  /* opacity: 0.8; */ 
+} 
+
+.section-form .signUp-input .submit-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 27px;
+  margin-left: -20px;
+}
+.section-form .signUp-input .submit-button input{
+  background-color: #4b8cca;
+  color: #ffffff;
+  font-family: 'Oswald',sans-serif;
+  font-size: 20px;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 17px;
+  transition: all 0.1s ease;
+}
+
+.section-form .signUp-input .submit-button input:hover {
+background-color: #387cbd;
+}
